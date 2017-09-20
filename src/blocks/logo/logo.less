@@ -1,7 +1,10 @@
 // Для импорта в диспетчер подключений: @import './src/blocks/logo/logo.less';
 
-@import '../../less/variables.less';     // только для удобства обращения к переменным
+// @import '../../less/variables.less';     // только для удобства обращения к переменным
 
+.logo-link {
+  text-decoration: none;
+}
 
 .logo {
   display: inline-block;
@@ -10,7 +13,8 @@
   padding: 5px 20px;
   font-weight: bold;
   margin: 25px 10px;
-  // width: 7%;
+  text-decoration: none;
+
 
   &__btn {
     margin-left: 0;
@@ -27,13 +31,14 @@
 
   &__inner {
     display: inline-block;
-
   }
 
   &__item {
     color: #000;
     display: inline-block;
-    padding: 15px 40px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
   }
 
   &__phone {
